@@ -16,7 +16,7 @@
 .header {
   padding: 10px;
   position: relative;
-  block-size: 100vw;
+  block-size: 100vh;
 }
 
 @media (width > 376px) {
@@ -386,7 +386,7 @@
 
 .footer {
   position: relative;
-  block-size: 100vw;
+  block-size: 100vh;
 }
 
 .footer__title {
