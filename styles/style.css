@@ -200,7 +200,6 @@
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
-  inline-size: 100%;
 }
 
 @media (width > 376px) {
