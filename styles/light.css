@@ -9,7 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
   --bg-color: #f1b2ce;
   --text-color: #000028;
   --title-color: #ffc2e6;
@@ -17,7 +16,7 @@
   --content-subtitle-color: #353430;
   --button-color: #353430;
   --accent-color: #ff8dcb;
-  --color-hover-button: rgba(255, 0, 112, 0.4);
+  --color-hover-button: rgba(50, 49, 45, 0.4);
   --main-font: "IBM Plex Mono";
   --background-image: url(../images/cover-image-light.png);
   --display-none: none;
@@ -27,7 +26,6 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
-
     --bg-color: #f1b2ce;
     --text-color: #000028;
     --title-color: #ffc2e6;
@@ -35,8 +33,8 @@
     --content-subtitle-color: #353430;
     --button-color: #353430;
     --accent-color: #ff8dcb;
-    --color-hover-button: rgba(255, 0, 112, 0.4);
-    --main-font: "IBM Plex Mono";
+    --color-hover-button: rgba(50, 49, 45, 0.4);
+    --font: "IBM Plex Mono";
     --background-image: url(../images/cover-image-light.png);
     --display-none: none;
     --corner-color: #ff8dcb;
