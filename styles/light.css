@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -19,7 +18,7 @@
   --color-hover-button: rgba(50, 49, 45, 0.4);
   --main-font: "IBM Plex Mono";
   --background-image: url(../images/cover-image-light.png);
-  --display-none: none;
+  --display: none;
   --corner-color: #ff8dcb;
 }
 
@@ -36,15 +35,12 @@
     --color-hover-button: rgba(50, 49, 45, 0.4);
     --font: "IBM Plex Mono";
     --background-image: url(../images/cover-image-light.png);
-    --display-none: none;
+    --display: none;
     --corner-color: #ff8dcb;
   }
+   .header__rec {
+  display: var(--display);
+}
 }
 
-.page.theme_light .header__rec {
-  display: var(--display-none);
-}
 
-.page.theme_auto .header__rec {
-  display: var(--display-none);
-}
